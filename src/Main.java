@@ -32,7 +32,7 @@ public class Main {
         switch (tipoOponente) {
             case 1 -> lutadores[1] = new LutadorLeve("Oponente Leve");
             case 2 -> lutadores[1] = new LutadorMedio("Oponente Médio");
-            case 3 -> lutadores[1] = new LutadorPesado("Pesado");
+            case 3 -> lutadores[1] = new LutadorPesado("Oponente Pesado");
         }
 
         System.out.println("\n======== STATUS INICIAL ========");
